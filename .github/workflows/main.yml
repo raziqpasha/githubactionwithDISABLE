@@ -1,9 +1,11 @@
 name: scheduletime
 
-on: []   # <-- This disables the workflow
+on:
+  workflow_dispatch:   # manual trigger only
 
 jobs:
   hello:
+    if: false          # disables the job
     runs-on: ubuntu-latest
     steps:
       - name: print message
