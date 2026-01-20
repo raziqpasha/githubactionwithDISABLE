@@ -1,4 +1,4 @@
-name: scheduletime
+name: disableaction
 
 on:
   workflow_dispatch:   # manual trigger only
