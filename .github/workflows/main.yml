@@ -1,0 +1,10 @@
+name: scheduletime
+
+on: []   # <-- This disables the workflow
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print message
+        run: echo "This workflow is disabled"
